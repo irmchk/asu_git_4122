@@ -683,6 +683,7 @@ AlienBullet.prototype = new Bullet();
 
 Asteroid = function () {
   this.init("asteroid",
+<<<<<<< a31a6ae655e625075e83430e32e70a60f43e9006
 <<<<<<< d037ee7f9a3157557d709f5913822a5059c34e44
             [-10,   0,
               -5,   7,
@@ -692,17 +693,14 @@ Asteroid = function () {
               10,   0,
                5,  -6,
                2, -10,
+=======
+<<<<<<< HEAD
+            [2, -10,
+>>>>>>> Changed shape of asteroid to 3 (triangle)
               -4, -10,
               -4,  -5]);
 =======
-      [-10,   0,
-        -5,   7,
-        -3,   4,
-        1,  10,
-        5,   4,
-        10,   0,
-        5,  -6,
-        2, -10,
+      [2, -10,
         -4, -10,
         -4,  -5]);
 >>>>>>> add brake
